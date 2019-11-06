@@ -11,6 +11,7 @@ public class IndexController {
 
     @RequestMapping("index")
     public String index(){
+        System.out.println("测试提交代码");
         return "index";
     }
 }
